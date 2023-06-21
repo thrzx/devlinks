@@ -7,6 +7,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
       rel="stylesheet"
     />
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,23 +17,69 @@
   <body>
     <div id="container">
       <div id="profile">
-        <img src="assets/avatar-dark.png" alt="macaco de terno" />
+        <img
+          src="./assets/avatar.png"
+          alt="Foto de Macaco de Terno"
+        />
         <p>@thrzx</p>
       </div>
+
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+
       <ul>
         <li>
           <a href="#">Inscrever-se no NLW</a>
         </li>
+
         <li>
           <a href="#">Baixar meu e-book</a>
         </li>
+
         <li>
-          <a href="https://github.com/thrzx" target="_blank">Ver meu portfólio</a>
+          <a href="https://github.com/thrzx">Ver meu portfólio</a>
         </li>
+
         <li>
-          <a href="https://rocketseat.com.br/explorer" target="_blank">Conheça o Explorer</a>
+          <a href="https://rocketseat.com.br/explorer" target="_blank"
+            >Conheça o Explorer</a
+          >
         </li>
       </ul>
+      <div id="social-links">
+        <a href="https://github.com/thrzx" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+
+        <a href="https://instagram.com/thrzx2" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+        <a href="https://youtube.com/thrzx" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+
+        <a href="https://linkedin.com/in/arthurdasilvaandrade" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+
+      <footer>
+        Feito com ♥ pela <a href="https://rocketseat.com.br/">Rocketseat</a>
+      </footer>
     </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
   </body>
 </html>
